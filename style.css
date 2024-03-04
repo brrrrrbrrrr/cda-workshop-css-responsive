@@ -110,3 +110,19 @@ footer {
   color: var(--font-color);
   padding: 10px;
 }
+
+@media screen and (min-width: 320px) {
+  nav {
+    display: flex;
+    height: auto;
+    width: 100vw;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
